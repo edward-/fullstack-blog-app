@@ -1,0 +1,16 @@
+{
+  "resourceName": "postimages",
+  "policyUUID": "868e3e16",
+  "bucketName": "fullstackblogapp7100c0ab995543288fc8fc5f952e3a9",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

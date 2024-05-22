@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "fullstackblogapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authfullstackblogapp77f7df9d",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2024-05-09T16:11:56.946Z"
+}
